@@ -1,0 +1,41 @@
+{
+  "name": "aw-api",
+  "version": "1.0.0",
+  "description": "Api V2 du site activateurweb.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sequelize": "dotenv sequelize",
+    "sequelize:init": "sequelize init",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Api",
+    "node.js",
+    "express",
+    "mySql",
+    "Sequelize"
+  ],
+  "author": "Activateur Web (Fabien Rivière)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "password-validator": "^5.2.1",
+    "sequelize": "^6.18.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}
